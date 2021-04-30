@@ -1,0 +1,41 @@
+#cuerpo
+{
+
+     background: rgb(184, 181, 181);
+     font-family: monospace;
+    margin: 0;
+    font-family: sans-serif;
+}
+#div1
+{
+    width: 900px;
+    height: 900px;
+    display: flex;
+    align-content: center;
+}
+#div3
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+#div4
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px
+}
+#div2
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin-left: 100px;
+    
+}
+.imagen
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}

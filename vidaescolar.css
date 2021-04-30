@@ -1,0 +1,96 @@
+#cuerpo
+{
+    background: rgb(184, 181, 181);
+    font-family: monospace;
+}
+#imagen1
+{
+    width: 300px;
+    height: 300px;
+}
+#imagen1:hover 
+{
+    scale: 0.9; 
+    border-radius: 8%;
+    border: solid red; 
+}
+
+#imagen2
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+#imagen2:hover 
+{
+    filter: blur(5px);
+    scale: 1.1;
+}
+#secundaria
+{
+    margin-left: 25px;
+}
+#colbach
+{
+    margin-left: 25px;
+}  
+#imagen3
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#imagen3:hover 
+{
+    -webkit-transform: rotate(540deg);
+    transform: rotate(540deg);
+}
+#imagen4
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+#imagen4:hover 
+{
+    filter: grayscale(70%);
+    
+}
+#universidad
+{
+    margin-left: 25px;
+}
+#principal
+{
+    display: flex;
+}
+.contenedor
+{
+    margin: auto;
+    display: table;
+}
+h1
+{
+    float: left;
+    position: relative;
+}
+h1 span
+{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: rgb(184, 181, 181);
+    border-left: 1px solid black;
+    animation: escribir 20s infinite alternate steps(60);
+}
+@keyframes escribir
+{
+    from {
+        width: 100%
+    }
+    to
+    {
+        width: 0%;
+    }
+}

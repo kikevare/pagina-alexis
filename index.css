@@ -1,0 +1,123 @@
+#cuerpo
+{
+
+     background: rgb(184, 181, 181);
+     font-family: monospace;
+    margin: 0;
+    font-family: sans-serif;
+}
+header
+{
+    width: 100%;
+    background: rgb(74, 124, 165);
+}
+#Boton_Menu
+{
+    display: none;
+}
+header label
+{
+    display: none;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-right: 1px solid whitesmoke;
+}
+header label:hover
+{
+    cursor: pointer;
+    background: rgba(18, 75, 121, 0.459);
+    
+}
+.Menu ul 
+{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.Menu li,a
+{
+    display: block;
+    padding: 10px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    
+
+}
+.Menu li:hover
+{
+    background: rgba(18, 75, 121, 0.459)
+}
+.Menu li
+{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid whitesmoke;
+}
+@media (max-width:780px)
+{
+    header label
+    {
+        display: block;
+    }
+    .Menu
+    {
+        position: absolute;
+        background: rgb(74, 124, 165);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 1s;
+    }
+    .Menu ul
+    {
+        flex-direction: column;
+    }
+    .Menu li
+    {
+        border-top: 1px solid whitesmoke;
+    }
+    #Boton_Menu:checked ~ .Menu
+    {
+        margin: 0px;
+    }
+}
+h1
+{
+  color: rgba(63, 62, 62, 0.658);
+  margin: 0;
+  text-align: center
+}
+#divisor1
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin-left: 100px;
+    
+}
+.imagenes
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+} 
+#divisorp
+{
+    width: 900px;
+    height: 900px;
+    display: flex;
+    align-content: center;
+}
+#divisor2
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+#divisor3
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}

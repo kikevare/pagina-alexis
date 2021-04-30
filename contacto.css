@@ -1,0 +1,67 @@
+.contenedor
+{
+    height: 280px;
+    width: 280px;
+    margin: auto;
+    perspective: 700px;
+}
+.carta
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.carta:hover
+{
+    transform: rotateY(180deg);
+}
+.lado
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.frontal
+{
+background: red;
+}
+.trasero
+{
+background: rgba(192, 192, 192, 0.445);
+transform: rotateY(180deg);
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+.texto
+{
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    color: black;
+    font-size: 30px;
+
+}
+ol
+{
+font-size: 25px;
+margin: 0;
+margin-top: 20px;
+}
+li:hover
+{
+background: rgb(230, 238, 211);
+cursor: pointer;
+}
+#cuerpo
+{
+    background: gray;
+}
